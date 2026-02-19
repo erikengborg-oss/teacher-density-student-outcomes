@@ -8,11 +8,7 @@ version 18.0
 * =======================
 * 1) Setup
 * =======================
-local project_dir "/Users/erikengborg"
-local data_file "paneldata_finale.dta"
-
-cd "`project_dir'"
-use "`data_file'", clear
+use "paneldata_finale.dta", clear
 
 * Panel structure
 xtset Skol_enhetskod Ar
