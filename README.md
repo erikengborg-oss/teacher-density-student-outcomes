@@ -2,13 +2,13 @@
 This repository contains the data and Stata code for the thesis *"Lärarkvalitet eller lärarkvantitet?"* (Teacher Quality or Teacher Quantity?). The study examines the relationship between teacher density and student achievement using a comprehensive panel dataset of Swedish schools.
 
 ## Project Overview
-The study utilizes data from approximately 1,700 schools over a ten-year period to investigate if increasing the number of teachers per student leads to improved academic results. 
+The study utilizes data from approximately 1,700 schools over a ten-year period to estimate the relationship between teacher density and average grade outcomes using a school-level panel dataset.
 
 ### Key Findings
-* **No Robust Effect:** While simpler models show a positive correlation between student-teacher ratios and grades, this association disappears entirely when introducing school fixed effects.
+* **No Robust Effect:** While simpler models show a positive correlation between student-teacher ratios and grades, this association becomes statistically insignificant once school fixed effects are introduced.
 * **Selection and Heterogeneity:** The analysis reveals that school types are not directly comparable; voucher schools often have a different student composition and different incentives for grading compared to municipal schools.
-* **Impact of Trends:** When accounting for school-specific trends, the coefficient for teacher density turns slightly negative but remains statistically insignificant, suggesting no robust association within schools over time.
-* **Socioeconomic Predominance:** Student background, particularly the share of students with highly educated parents, is the most consistent and powerful predictor of academic outcomes across all school types
+* **Impact of Trends:** When accounting for school-specific trends, the coefficient for teacher density turns negative and statistically insignificant, suggesting no robust association within schools over time.
+* **Socioeconomic Predominance:** Student background, particularly the share of students with highly educated parents, is the most consistent and powerful predictor of academic outcomes across all school types.
 
 ## Repository Structure
 * `/data`: Contains `paneldata_finale.dta` (The processed panel dataset).
