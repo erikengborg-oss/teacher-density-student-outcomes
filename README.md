@@ -11,22 +11,29 @@ The study utilizes data from approximately 1,700 schools over a ten-year period 
 * **Socioeconomic Predominance:** Student background, particularly the share of students with highly educated parents, is the most consistent and powerful predictor of academic outcomes across all school types.
 
 ## Repository Structure
-* `/data`: Contains `paneldata_finale.dta` (The processed panel dataset).
-* `/scripts`: Contains `econometric_analysis.do` (Stata script for all regressions and tables).
-* `/docs`: Includes the full thesis in Swedish (`Calissendorff & Engborg.pdf`).
+- `/data`: Contains `paneldata_finale.dta` and `paneldata_finale.csv` (input data files).
+- `/scripts`: Contains:
+  - `econometric_analysis.do` (Stata script for all regressions and tables).
+  - `econometric_analysis.ipynb` (Python replication notebook).
+- `/docs`: Includes the full thesis in Swedish (`Calissendorff & Engborg.pdf`).
 
 ## Technical Implementation
-The analysis is conducted in **Stata** using:
+The analysis is conducted using:
 * **Fixed Effects Models:** To control for time-invariant school characteristics.
 * **Linear Trends:** To account for systematic changes within schools over time.
 * **Clustered Standard Errors:** To ensure robust statistical inference.
 
 ## How to Replicate
-1. Clone this repository.
-2. Open Stata and set your working directory to the repository folder using the cd command.
-3. Ensure the dataset is located at `data/paneldata_finale.dta`.
-4. Run `scripts/econometric_analysis.do`.
-5. The script exports Panel A (All schools), Panel B (Voucher schools), and Panel C (Municipal schools).
+
+### Stata (original analysis)
+1. Open Stata and set the working directory to the repository root.
+2. Ensure the dataset is located at `data/paneldata_finale.dta`.
+3. Run `scripts/econometric_analysis.do`.
+
+### Python (replication)
+1. Open `scripts/econometric_analysis.ipynb` in VS Code or Jupyter.
+2. Ensure the dataset is located at `data/paneldata_finale.csv` (or in the same folder as the notebook).
+3. Run cell in the notebook.
 
 ## Authors
 * Daniel Calissendorff
