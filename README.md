@@ -1,5 +1,5 @@
 # Teacher-Student Ratios and Grade Outcomes in Swedish Compulsory Schools 2016–2025
-This repository contains the data and Stata code for the thesis *"Lärarkvalitet eller lärarkvantitet?"* (Teacher Quality or Teacher Quantity?). The study examines the relationship between teacher density and student achievement using a comprehensive panel dataset of Swedish schools.
+This repository contains the data and Stata code for the thesis *"Lärarkvalitet eller lärarkvantitet?"* (Teacher Quality or Teacher Quantity?).
 
 ## Project Overview
 The study utilizes data from approximately 1,700 schools over a ten-year period to estimate the relationship between teacher density and average grade outcomes using a school-level panel dataset.
