@@ -1,8 +1,7 @@
 # Teacher-Student Ratios and Grade Outcomes in Swedish Compulsory Schools 2016–2025
-This repository contains the data and Stata code for the thesis *"Lärarkvalitet eller lärarkvantitet?"* (Teacher Quality or Teacher Quantity?).
 
 ## Project Overview
-The study utilizes data from approximately 1,700 schools over a ten-year period to estimate the relationship between teacher density and average grade outcomes using a school-level panel dataset.
+This repository contains the data and Stata code for the thesis *"Lärarkvalitet eller lärarkvantitet?"* (Teacher Quality or Teacher Quantity?). The study utilizes data from approximately 1,700 schools over a ten-year period to estimate the relationship between teacher density and average grade outcomes using a school-level panel dataset.
 
 ### Key Findings
 * **No Robust Effect:** While simpler models show a positive correlation between student-teacher ratios and grades, this association becomes statistically insignificant once school fixed effects are introduced.
