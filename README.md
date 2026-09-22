@@ -3,6 +3,9 @@
 ## Project Overview
 This repository contains the data and Stata code for the thesis *"Lärarkvalitet eller lärarkvantitet?"* (Teacher Quality or Teacher Quantity?). The study utilizes data from approximately 1,700 schools over a ten-year period to estimate the relationship between teacher density and average grade outcomes using a school-level panel dataset.
 
+## Thesis
+https://www.diva-portal.org/smash/get/diva2:2097209/FULLTEXT02.pdf
+
 ### Key Findings
 * **No Robust Effect:** While simpler models show a positive correlation between student-teacher ratios and grades, this association becomes statistically insignificant once school fixed effects are introduced.
 * **Selection and Heterogeneity:** The analysis reveals that school types are not directly comparable; voucher schools often have a different student composition and different incentives for grading compared to municipal schools.
